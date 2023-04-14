@@ -31,6 +31,9 @@ require('packer').startup(function(use)
     requires = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
   }
 
+  -- Inlay Hint - Partial impl
+  use { "lvimuser/lsp-inlayhints.nvim", commit = "a28c51a6362e3faa17f67749436cb5c8b55dcc6d" }
+
   use { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     run = function()
