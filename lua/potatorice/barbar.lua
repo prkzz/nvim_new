@@ -35,7 +35,7 @@ require'bufferline'.setup {
             custom_colors = false
         },
         button = '',
-        separator = {left = '▎', right = '▎'},
+        separator = {left = '▎', right = ''},
         modified = {button = '●'},
         pinned = {button = '車', filename = true, separator = {right = '▎'}},
     },
